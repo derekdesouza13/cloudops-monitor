@@ -79,15 +79,17 @@ cloudops-monitor/
 Clone Repository
 
 git clone https://github.com/YOUR_USERNAME/cloudops-monitor.git
+
 cd cloudops-monitor
 
 ## Local Development Setup
 
-Install Dependencies
+Install Dependencies:
 
 pip install -r app/requirements.txt
 
-Run FastAPI Server
+Run FastAPI Server:
+
 uvicorn app.main:app --reload
 
 Application URL:
