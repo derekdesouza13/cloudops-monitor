@@ -42,7 +42,6 @@ CloudOps Monitor is a cloud infrastructure automation and monitoring platform bu
 
 ## Project Architecture
 
-```text
 Developer Pushes Code
         ↓
 GitHub Actions CI/CD Pipeline
@@ -52,7 +51,8 @@ Terraform Provisions AWS Infrastructure
 Dockerized FastAPI Application Deployment
         ↓
 Cloud Monitoring & Health Checks
-Folder Structure
+
+## Folder Structure
 cloudops-monitor/
 │
 ├── app/
@@ -73,30 +73,40 @@ cloudops-monitor/
 ├── docker-compose.yml
 ├── README.md
 └── .gitignore
-Getting Started
-Clone Repository
-git clone https://github.com/YOUR_USERNAME/cloudops-monitor.git
 
+## Getting Started
+
+Clone Repository
+
+git clone https://github.com/YOUR_USERNAME/cloudops-monitor.git
 cd cloudops-monitor
-Local Development Setup
+
+## Local Development Setup
+
 Install Dependencies
+
 pip install -r app/requirements.txt
+
 Run FastAPI Server
 uvicorn app.main:app --reload
 
 Application URL:
-
 http://127.0.0.1:8000
 
 Health Check Endpoint:
 
 http://127.0.0.1:8000/health
-Docker Setup
+
+## Docker Setup
+
 Build Docker Container
 docker build -t cloudops-monitor .
+
 Run Docker Container
 docker run -p 8000:8000 cloudops-monitor
-Terraform Infrastructure Deployment
+
+## Terraform Infrastructure Deployment
+
 Initialize Terraform
 cd terraform
 
@@ -105,7 +115,8 @@ Preview Infrastructure
 terraform plan
 Deploy Infrastructure
 terraform apply
-GitHub Actions CI/CD
+
+## GitHub Actions CI/CD
 
 This project uses GitHub Actions for:
 
@@ -117,7 +128,9 @@ pipeline validation
 Workflow file:
 
 .github/workflows/deploy.yml
-Future Improvements
+
+## Future Improvements
+
 CloudWatch monitoring dashboards
 AWS Lambda integrations
 Datadog observability
@@ -125,12 +138,15 @@ HTTPS with NGINX reverse proxy
 Multi-environment Terraform modules
 Infrastructure scaling support
 Automated rollback pipelines
-Resume Highlights
+
+## Resume Highlights
+
 Built AWS-based infrastructure automation workflows using Terraform and Infrastructure as Code.
 Implemented CI/CD pipelines using GitHub Actions for backend deployment automation.
 Developed scalable FastAPI backend services with Dockerized deployment workflows.
 Designed cloud-ready monitoring and health-check systems for infrastructure observability.
-Author
+
+## Author
 Derek Frederick Dsouza
 LinkedIn: https://linkedin.com/in/derekdesouza1310
 GitHub: https://github.com/derekdesouza13
