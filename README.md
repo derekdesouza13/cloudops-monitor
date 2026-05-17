@@ -43,13 +43,21 @@ CloudOps Monitor is a cloud infrastructure automation and monitoring platform bu
 ## Project Architecture
 
 Developer Pushes Code
+
         ↓
+
 GitHub Actions CI/CD Pipeline
+
         ↓
+
 Terraform Provisions AWS Infrastructure
+
         ↓
+
 Dockerized FastAPI Application Deployment
+
         ↓
+        
 Cloud Monitoring & Health Checks
 
 ## Folder Structure
