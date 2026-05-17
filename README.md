@@ -53,6 +53,7 @@ Dockerized FastAPI Application Deployment
 Cloud Monitoring & Health Checks
 
 ## Folder Structure
+
 cloudops-monitor/
 │
 ├── app/
