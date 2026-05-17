@@ -102,20 +102,27 @@ http://127.0.0.1:8000/health
 ## Docker Setup
 
 Build Docker Container
+
 docker build -t cloudops-monitor .
 
 Run Docker Container
+
 docker run -p 8000:8000 cloudops-monitor
 
 ## Terraform Infrastructure Deployment
 
 Initialize Terraform
+
 cd terraform
 
 terraform init
+
 Preview Infrastructure
+
 terraform plan
+
 Deploy Infrastructure
+
 terraform apply
 
 ## GitHub Actions CI/CD
@@ -123,8 +130,11 @@ terraform apply
 This project uses GitHub Actions for:
 
 automated dependency installation
+
 CI/CD workflows
+
 deployment automation
+
 pipeline validation
 
 Workflow file:
@@ -134,21 +144,33 @@ Workflow file:
 ## Future Improvements
 
 CloudWatch monitoring dashboards
+
 AWS Lambda integrations
+
 Datadog observability
+
 HTTPS with NGINX reverse proxy
+
 Multi-environment Terraform modules
+
 Infrastructure scaling support
+
 Automated rollback pipelines
 
 ## Resume Highlights
 
 Built AWS-based infrastructure automation workflows using Terraform and Infrastructure as Code.
+
 Implemented CI/CD pipelines using GitHub Actions for backend deployment automation.
+
 Developed scalable FastAPI backend services with Dockerized deployment workflows.
+
 Designed cloud-ready monitoring and health-check systems for infrastructure observability.
 
 ## Author
+
 Derek Frederick Dsouza
+
 LinkedIn: https://linkedin.com/in/derekdesouza1310
+
 GitHub: https://github.com/derekdesouza13
